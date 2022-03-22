@@ -1,0 +1,20 @@
+<div class="alarm-clock">
+    <p>Current Time: {{ now | date: 'h:mm a' }}</p>
+    <div class="inputs">
+        <div class="date">
+            <label for="date">Choose a date:
+                <input type="date">
+            </label>
+        </div>
+
+        <div class="time">
+            <label for="time">Choose a time:
+                <input type="time">
+            </label>
+        </div>
+
+        <div class="submit">
+            <input type="submit" value="Submit">
+        </div>
+    </div>
+</div>
